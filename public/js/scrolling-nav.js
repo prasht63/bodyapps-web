@@ -1,6 +1,6 @@
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    $('.texts').each( function(i){
+    $('.fadein').each( function(i){
             
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -13,7 +13,7 @@ $(window).scroll(function() {
             }
             if($(window).scrollTop()<50) 
             {
-             $('.texts').css({'opacity':'0'});   
+             $('.fadein').css({'opacity':'0'});   
             }
 
             
