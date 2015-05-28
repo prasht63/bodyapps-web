@@ -186,6 +186,10 @@ u {
   }
 }
 .texts{
+  opacity: 1;
+}
+.fadein
+{
   opacity: 0;
 }
 .texts p {
