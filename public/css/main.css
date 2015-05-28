@@ -1,6 +1,6 @@
 body{
   opacity : 1;
-  background-image: url("public/img/snip.PNG");
+  background-image: url("/public/img/snip.PNG");
   padding-top: 50px;
 }
 .navbar-default {
@@ -121,7 +121,7 @@ u {
 /* Default - screens over 767px wide */
 .ad-class {
   /* ... */
-  content: url('public/img/phone.png');
+  content: url('/public/img/phone.png');
   margin-top: 30px;
 }
 
@@ -130,7 +130,7 @@ u {
   .ad-class {
     /* ... */
     margin-top: 50px;
-    content: url('public/img/gplay.png');
+    content: url('/public/img/gplay.png');
   }
 }
 
@@ -139,7 +139,7 @@ u {
   .ad-class {
     /* ... */
     margin-top: 50px;
-    content: url('public/img/gplay.png');
+    content: url('/public/img/gplay.png');
   }
 }
 
@@ -165,7 +165,7 @@ u {
 
 /* Default - screens over 767px wide */
 #infocontainer{
-  background-image: url("public/img/conbg.jpeg");
+  background-image: url("/public/img/conbg.jpeg");
   background-size: cover;
   height: 700px;
 }
